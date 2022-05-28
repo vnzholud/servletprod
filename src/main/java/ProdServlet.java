@@ -25,7 +25,7 @@ public class ProdServlet extends HttpServlet {
         resp.setContentType("text/html;charset=UTF-8");
         resp.getWriter().printf("<html><body>");
         for (int i = 0; i < prod.size(); i++) {
-            resp.getWriter().printf("<h2>Номер  " + prod.get(i).getId()+"  Продукт  " + prod.get(i).getName()+ " Цена " + prod.get(i).getPrice());
+            resp.getWriter().printf("<h3>Номер  " + prod.get(i).getId()+"  Продукт  " + prod.get(i).getName()+ " Цена " + prod.get(i).getPrice());
         }
         resp.getWriter().printf("</body></html>");
         resp.getWriter().close();
