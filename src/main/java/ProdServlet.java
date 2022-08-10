@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 
-// http://localhost:8080/client2/first_servlet
+
 @WebServlet(name = "ProdServlet", urlPatterns = "/show_products")
 public class ProdServlet extends HttpServlet {
     private static Logger logger = LoggerFactory.getLogger(ProdServlet.class);
